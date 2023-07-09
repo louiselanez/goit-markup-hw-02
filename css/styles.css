@@ -7,6 +7,7 @@
   --ocean: #2196f3;
   --white: #fff;
   --cloud: #f4f4fd;
+  --blue: #404bbf;
 }
 .link-logo {
   text-decoration: none;
@@ -174,4 +175,36 @@
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.32px;
+}
+
+.btns {
+  border-color: transparent;
+  background-color: var(--blue);
+}
+
+.btns.portfolio {
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.64px;
+  color: var(--white);
+}
+
+.btns.portfolio:hover,
+.btns.portfolio:focus {
+  background-color: lightseagreen;
+}
+
+.option {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+}
+
+.ptitle {
+  font-size: 20px;
 }
