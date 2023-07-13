@@ -32,7 +32,6 @@ body {
   color: var(--navyblue);
 }
 
-
 .contacts-menu .item {
   color: var(--slate);
   text-decoration: none;
@@ -41,32 +40,28 @@ body {
   letter-spacing: 0.02em;
 }
 
-.bg-hero{
+.bg-hero {
   background-color: var(--navyblue);
 }
 
-.hero-title{
+.hero-title {
   font-size: 56px;
   text-align: center;
   line-height: 1.07;
-  letter-spacing: .04em;
+  letter-spacing: 0.04em;
   color: var(--white);
-
 }
 
-.bg-team{
+.bg-team {
   background-color: var(--cloud);
-
 }
 
-
-.nav-menu .page{
+.nav-menu .page {
   font-weight: 500;
   color: var(--navyblue);
   text-decoration: none;
   line-height: 1.14;
-  letter-spacing: .02em;
-
+  letter-spacing: 0.02em;
 }
 
 .list {
@@ -77,10 +72,9 @@ body {
 .nav-menu .page:focus,
 .nav-menu .page.current,
 .contacts-menu .item:hover,
-.contacts-menu .item:focus,
+.contacts-menu .item:focus {
   color: var(--ocean);
-
-
+}
 
 .button {
   border-color: transparent;
@@ -99,11 +93,12 @@ body {
 }
 
 .button.primary:hover,
-.button.primary:focus {
+.button.primary:focus,
+.button.primary.current {
   background-color: var(--ocean);
 }
 
-.button.filter{
+.button.filter {
   background: var(--cloud);
   color: var(--iriscolor);
   font-weight: 500;
@@ -111,26 +106,26 @@ body {
 }
 
 .button.filter:hover,
-.button.filter.focus;
+.button.filter:focus,
 .button.filter.current {
   background-color: var(--ocean);
   color: var(--cloud);
 }
 
-.project .name{
+.project .name {
   font-size: 20px;
   font-weight: 500;
   line-height: 2;
-  letter-spacing: .04em;
+  letter-spacing: 0.04em;
   color: var(--navyblue);
 }
 
-.project .type{
+.project .type {
   color: var(--slate);
   font-weight: 400;
   line-height: 1.87;
 }
-.project{
+.project {
   text-decoration: none;
 }
 .section-title {
@@ -153,9 +148,6 @@ body {
   font-weight: 400;
 }
 
-
-
-
 .team .name {
   color: var(--navyblue);
   font-size: 20px;
@@ -173,7 +165,7 @@ body {
   background-color: var(--navyblue);
 }
 
-.studio-footer{
+.studio-footer {
   color: var(--cloud);
 }
 
@@ -182,4 +174,3 @@ body {
   font-size: 16px;
   font-weight: 400;
 }
-
