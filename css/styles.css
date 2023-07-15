@@ -17,11 +17,14 @@ body {
 }
 .logo-link {
   text-decoration: none;
-  font-size: 18px;
+  font-size: 0px;
   font-weight: 800;
   line-height: 1.17;
   letter-spacing: 0.54px;
   font-family: "Raleway", sans-serif;
+}
+.logo-link > span {
+  font-size: 18px;
 }
 
 .logo {
@@ -83,6 +86,8 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.03em;
+  font-size: 16px;
+  border-radius: 4px;
 }
 
 .button.primary {
@@ -108,7 +113,7 @@ body {
 .button.filter:hover,
 .button.filter:focus,
 .button.filter.current {
-  background-color: var(--ocean);
+  background-color: var(--blue);
   color: var(--cloud);
 }
 
