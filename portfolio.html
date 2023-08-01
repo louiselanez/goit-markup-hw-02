@@ -17,52 +17,60 @@
   <body>
     <!-- header -->
     <header class="page-header">
-      <div class="header-container">
+      <!-- nav -->
+      <div class="container menu">
         <a href="./index.html" class="logo-link">
           <span class="logo">WEB</span><span class="studio">STUDIO</span>
         </a>
         <ul class="nav-menu list">
-          <li><a href="./index.html" class="page current">Studio</a></li>
-          <li><a href="./portfolio.html" class="page">Portfolio</a></li>
-          <li><a href="#" class="page">Contacts</a></li>
+          <li class="item">
+            <a href="./index.html" class="page current link">Studio</a>
+          </li>
+          <li class="item">
+            <a href="./portfolio.html" class="page link">Portfolio</a>
+          </li>
+          <li class="item"><a href="#" class="page link">Contacts</a></li>
         </ul>
+
         <ul class="contacts-menu list">
-          <li>
-            <a href="mailto:info@devstudio.com" class="item"
+          <li class="item">
+            <a href="mailto:info@devstudio.com" class="contact link"
               >info@devstudio.com</a
             >
           </li>
-          <li>
-            <a href="tel:+110001111111" class="item">+11 (000) 111-11-11</a>
+          <li class="item">
+            <a href="tel:+110001111111" class="contact link"
+              >+11 (000) 111-11-11</a
+            >
           </li>
         </ul>
       </div>
     </header>
     <!-- main -->
     <main>
-      <section>
+      <section class="section">
         <div class="container">
           <ul class="filters list">
-            <li>
+            <li class="space">
               <button type="button" class="button filter current">All</button>
             </li>
             <li>
               <button type="button" class="button filter">Web Site</button>
             </li>
-            <li>
+            <li class="space">
               <button type="button" class="button filter">App</button>
             </li>
-            <li>
+            <li class="space">
               <button type="button" class="button filter">Design</button>
             </li>
-            <li>
+            <li class="space">
               <button type="button" class="button filter">Marketing</button>
             </li>
           </ul>
           <!-- section 2  -->
           <ul class="projects list">
-            <li>
-              <a href="" class="project">
+            <li class="project-card">
+              <a href="" class="project link">
                 <img
                   src="./images/output.jpg"
                   alt="Banking-App-Interface-Concept
@@ -70,12 +78,14 @@
                   width="370"
                   height="294"
                 />
-                <h2 class="name">Banking App Interface Concept</h2>
-                <p class="type">App</p>
+                <div class="substrate">
+                  <h2 class="name">Banking App Interface Concept</h2>
+                  <p class="type">App</p>
+                </div>
               </a>
             </li>
-            <li>
-              <a href="#" class="project">
+            <li class="project-card">
+              <a href="#" class="project link">
                 <img
                   src="./images/scan.jpg"
                   alt="Cashless-Payment
@@ -83,12 +93,14 @@
                   width="370"
                   height="294"
                 />
-                <h2 class="name">Cashless Payment</h2>
-                <p class="type">Marketing</p>
+                <div class="substrate">
+                  <h2 class="name">Cashless Payment</h2>
+                  <p class="type">Marketing</p>
+                </div>
               </a>
             </li>
-            <li>
-              <a href="#" class="project">
+            <li class="project-card">
+              <a href="#" class="project link">
                 <img
                   src="./images/connect.jpg"
                   alt="Meditation-App
@@ -96,12 +108,14 @@
                   width="370"
                   height="294"
                 />
-                <h2 class="name">Meditation App</h2>
-                <p class="type">App</p>
+                <div class="substrate">
+                  <h2 class="name">Meditation App</h2>
+                  <p class="type">App</p>
+                </div>
               </a>
             </li>
-            <li>
-              <a href="#" class="project">
+            <li class="project-card">
+              <a href="#" class="project link">
                 <img
                   src="./images/drive.jpg"
                   alt="Taxi-Service
@@ -109,12 +123,14 @@
                   width="370"
                   height="294"
                 />
-                <h2 class="name">Taxi Service</h2>
-                <p class="type">Marketing</p>
+                <div class="substrate">
+                  <h2 class="name">Taxi Service</h2>
+                  <p class="type">Marketing</p>
+                </div>
               </a>
             </li>
-            <li>
-              <a href="#" class="project">
+            <li class="project-card">
+              <a href="#" class="project link">
                 <img
                   src="./images/bg.jpg"
                   alt="Screen
@@ -122,12 +138,14 @@
                   width="370"
                   height="294"
                 />
-                <h2 class="name">Screen Illustrations</h2>
-                <p class="type">Design</p>
+                <div class="substrate">
+                  <h2 class="name">Screen Illustrations</h2>
+                  <p class="type">Design</p>
+                </div>
               </a>
             </li>
-            <li>
-              <a href="#" class="project">
+            <li class="project-card">
+              <a href="#" class="project link">
                 <img
                   src="./images/orange.jpg"
                   alt="Online-course
@@ -135,12 +153,14 @@
                   width="370"
                   height="294"
                 />
-                <h2 class="name">Online Courses</h2>
-                <p class="type">Marketing</p>
+                <div class="substrate">
+                  <h2 class="name">Online Courses</h2>
+                  <p class="type">Marketing</p>
+                </div>
               </a>
             </li>
-            <li>
-              <a href="#" class="project">
+            <li class="project-card">
+              <a href="#" class="project link">
                 <img
                   src="./images/pallete.jpg"
                   alt="Instagram
@@ -148,12 +168,14 @@
                   width="370"
                   height="294"
                 />
-                <h2 class="name">Instagram Story Concept</h2>
-                <p class="type">Design</p>
+                <div class="substrate">
+                  <h2 class="name">Instagram Story Concept</h2>
+                  <p class="type">Design</p>
+                </div>
               </a>
             </li>
-            <li>
-              <a href="#" class="project">
+            <li class="project-card">
+              <a href="#" class="project link">
                 <img
                   src="./images/plant.jpg"
                   alt="Organic
@@ -161,12 +183,14 @@
                   width="370"
                   height="294"
                 />
-                <h2 class="name">Organic Food</h2>
-                <p class="type">Web Site</p>
+                <div class="substrate">
+                  <h2 class="name">Organic Food</h2>
+                  <p class="type">Web Site</p>
+                </div>
               </a>
             </li>
-            <li>
-              <a href="#" class="project">
+            <li class="project-card">
+              <a href="#" class="project link">
                 <img
                   src="./images/coffee.jpg"
                   alt="Coffee
@@ -174,8 +198,10 @@
                   width="370"
                   height="294"
                 />
-                <h2 class="name">Fresh Coffee</h2>
-                <p class="type">Web Site</p>
+                <div class="substrate">
+                  <h2 class="name">Fresh Coffee</h2>
+                  <p class="type">Web Site</p>
+                </div>
               </a>
             </li>
           </ul>
@@ -187,7 +213,7 @@
     <!-- sec-2 -->
     <!-- footer -->
     <footer class="page-footer bg-footer">
-      <div class="footer-container">
+      <div class="contaier">
         <a href="./index.html" class="logo-link">
           <span class="logo">WEB</span>
           <span class="studio-footer">STUDIO</span>
